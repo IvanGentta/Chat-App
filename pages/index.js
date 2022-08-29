@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Navbar from "../components/Navbar";
 
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Chat from "../components/Chat";
 

@@ -1,5 +1,5 @@
 import { query, collection, orderBy, onSnapshot } from "firebase/firestore";
-import { db } from "../pages/firebase";
+import { db } from "../firebase";
 import React, { useState, useEffect, useRef } from "react";
 import Message from "./Message";
 import SendMessages from "./SendMessages";
